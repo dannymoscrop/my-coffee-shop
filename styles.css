@@ -56,9 +56,39 @@ a, a:visited {
   flex-direction: column;
   align-items: center;
   margin: 50px 20px 0 20px;
-  height: 90vh;
+  height: 90vh; 
+  border: 1px solid red;
 }
 
+.drinksmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px dashed green;
+  width: 80%;
+} 
+.drink {
+  display:flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  border: 1px dashed cyan;
+  margin: 0;
+  
+}
+
+.drink > img {
+  width: 150px;
+  margin: 0;
+}
+.drink > p {
+  font-size: 12px;
+}
+.drinkstext {
+  width: 80%;
+  font-size: 2rem;
+  border: 1px dashed purple;
+}
 p {
   font-size: 1.6rem;
 }
@@ -67,7 +97,6 @@ img {
   border: 1px solid grey;
   margin: 10px 20px 30px 40px;
   border-radius: 10px;
-  width: 650px;
 }
 
 h1 {
