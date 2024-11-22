@@ -1,100 +1,132 @@
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    max-width: 2560px;
-  }
-   
-  body {
-    font-family: Arial;
-    background-color: #F3E9E4;
-    font-size: 30px;
-  }
-    
-  #navbar {
-    background-color: #F1D6BC;
-    text-decoration: none;
-    font-size: 20px;
-    height: 3rem;
-    display: flex;
-    padding-block: 5px;
-    align-items: center;
-    letter-spacing: 2px;
-    border: 1px dotted; color: red;
-  }
-    
-  a {
-    color: #3D2B24;
-    width: 10em;
-  }
-    
-  .limelight-regular {
-    font-family: "Limelight", sans-serif;
-    font-weight: 400;
-    font-style: normal;     
-  }
-        
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin: 100px, 100px;
-    height: 500px;
-    border: 1px dotted; color: rgb(21, 0, 255);
-  }
-    
-  img {
-    border: 1px solid grey;
-    margin: 10px 20px 30px 40px;
-    border-radius: 10px;
-    width: 800px;
-    justify-content: center;
-    align-items: center;
-  }
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 
-  .drinks {
-    width: 300px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+html {
+  margin: 0 auto;
+  max-width: 2560px;
+}
 
-    
-  }
-    
-  h1, h2 {
-    color:#3D2B24;
-    font-family: "Limelight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items:start;
-  }
-    
-  p {
-    font-family: "Kaisei Decol", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: #3D2B24;
-    display: flex;
-    margin: 0 auto;
-    width: 1280px;
-  }
-   
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    width: 10px;
-    max-width: 50%;
-    max-height: 50%;
-  }
+body {
+  font-family: Arial;
+  background-color: #F3E9E4;
+  color: #3D2B24;
+  font-size: 16px;
+}
+  
+#navbar {
+  width: 100%;
+  background-color: #F1D6BC;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border: 1px dotted; color: red;
+}
+
+.logo {
+  font-family: "Limelight", sans-serif;
+  width: 30%;
+  margin-left: 20px;
+  font-size: 2rem;
+  border: 1px dashed green;
+}
+
+.navlinks {
+  border: 1px dashed black;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a, a:visited {
+  color: #3D2B24;
+}
+
+.navlinks > a {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+      
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px 0 20px;
+  height: 90vh;
+}
+
+p {
+  font-size: 1.6rem;
+}
+  
+img {
+  border: 1px solid grey;
+  margin: 10px 20px 30px 40px;
+  border-radius: 10px;
+  width: 650px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Limelight", sans-serif;
+  margin-bottom: 20px;
+}
+
+#navbar-social {
+  width: 100%;
+  background-color: antiquewhite;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.navlinks-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+a, a:visited {
+  color: #3D2B24;
+}
+
+.navlinks-social > a {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+  
+/* h1, h2 {
+  color:#3D2B24;
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+}
+  
+p {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #3D2B24;
+}
+ 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 10px;
+  max-width: 50%;
+  max-height: 50%;
+} */
